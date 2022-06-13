@@ -12,5 +12,6 @@ public interface NewsActivityContract {
 
     interface Presenter extends BasePresenter<View>{
         void loadNews(String category);
+        void loadNewsWithQuery(String category,String query);
     }
 }

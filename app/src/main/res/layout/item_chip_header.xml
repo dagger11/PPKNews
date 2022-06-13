@@ -20,6 +20,7 @@
             android:checked="true"
             android:textColor="@color/white"
             app:chipBackgroundColor="@color/purple_500"
+            app:checkedIconTint="@color/white"
             style="@style/Widget.MaterialComponents.Chip.Filter"/>
         <com.google.android.material.chip.Chip
             android:id="@+id/business"
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             app:chipBackgroundColor="@color/purple_500"
+            app:checkedIconTint="@color/white"
             style="@style/Widget.MaterialComponents.Chip.Filter"/>
         <com.google.android.material.chip.Chip
             android:id="@+id/entertainment"
@@ -36,6 +38,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             app:chipBackgroundColor="@color/purple_500"
+            app:checkedIconTint="@color/white"
             style="@style/Widget.MaterialComponents.Chip.Filter"/>
         <com.google.android.material.chip.Chip
             android:id="@+id/health"
@@ -44,6 +47,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             app:chipBackgroundColor="@color/purple_500"
+            app:checkedIconTint="@color/white"
             style="@style/Widget.MaterialComponents.Chip.Filter"/>
 
         <com.google.android.material.chip.Chip
@@ -53,6 +57,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             app:chipBackgroundColor="@color/purple_500"
+            app:checkedIconTint="@color/white"
             style="@style/Widget.MaterialComponents.Chip.Filter"/>
 
         <com.google.android.material.chip.Chip
@@ -61,6 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
+        app:checkedIconTint="@color/white"
         app:chipBackgroundColor="@color/purple_500"
         style="@style/Widget.MaterialComponents.Chip.Filter"/>
 
@@ -70,6 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
+            app:checkedIconTint="@color/white"
             app:chipBackgroundColor="@color/purple_500"
             style="@style/Widget.MaterialComponents.Chip.Filter"/>
 

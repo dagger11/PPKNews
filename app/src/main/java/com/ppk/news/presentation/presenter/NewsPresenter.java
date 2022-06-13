@@ -28,7 +28,18 @@ public class NewsPresenter implements NewsActivityContract.Presenter {
 
     @Override
     public void loadNews(String category) {
-        NewsListener<NewsApiResponse> listener = new NewsListener<NewsApiResponse>() {
+        RequestManager manager = new RequestManager();
+        manager.getNewsHeaders(null,category,getListener());
+    }
+
+    @Override
+    public void loadNewsWithQuery(String category,String query) {
+        RequestManager manager = new RequestManager();
+        manager.getNewsHeaders(query,category,getListener());
+    }
+
+    private NewsListener<NewsApiResponse> getListener(){
+        return new NewsListener<NewsApiResponse>() {
             @Override
             public void onSuccess(ArrayList<NewsHeaderModel> newsHeaders, String message) {
                 Log.e("on success","");
@@ -39,10 +50,8 @@ public class NewsPresenter implements NewsActivityContract.Presenter {
             public void onFailure(String message) {
                 Log.e("error msg ", message);
                 //tell the view to show error message
+                view.showToast(message);
             }
         };
-
-        RequestManager manager = new RequestManager();
-        manager.getNewsHeaders(null,category,listener);
     }
 }

@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PPKNews/app/src/main/res/drawable-anydpi/ic_loading_image.xml" value="0.19166666666666668" />
+        <entry key="..\:/PPKNews/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.19166666666666668" />
         <entry key="..\:/PPKNews/app/src/main/res/layout/activity_news.xml" value="0.12771739130434784" />
         <entry key="..\:/PPKNews/app/src/main/res/layout/activity_read_news.xml" value="0.209375" />
         <entry key="..\:/PPKNews/app/src/main/res/layout/item_appbar.xml" value="0.209375" />
         <entry key="..\:/PPKNews/app/src/main/res/layout/item_chip_header.xml" value="0.19138755980861244" />
         <entry key="..\:/PPKNews/app/src/main/res/layout/item_news_header.xml" value="1.1" />
+        <entry key="..\:/PPKNews/app/src/main/res/layout/test.xml" value="0.9" />
         <entry key="..\:/PPKNews/app/src/main/res/menu/search_menu.xml" value="0.209375" />
       </map>
     </option>

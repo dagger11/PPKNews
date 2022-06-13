@@ -19,7 +19,8 @@
             android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name=".presentation.view.ActivityNews"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
