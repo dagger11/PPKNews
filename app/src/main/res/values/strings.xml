@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PPKNews</string>
+
+    <string name="loading">Loading News</string>
+    
+    <!--chip headers-->
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="general">General</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sport">Sport</string>
+    <string name="technology">Technology</string>
+
+
+    <string name="search">Search News</string>
+
+</resources>

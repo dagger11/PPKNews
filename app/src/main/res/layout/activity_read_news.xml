@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.view.ActivityReadNews">
+
+    <include
+        android:id="@+id/appbar_layout"
+        layout="@layout/item_appbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@id/appbar_layout">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/newsPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/ic_loading_image"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newsPhoto"
+                />
+
+            <TextView
+                android:id="@+id/newsAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:id="@+id/newsDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newsAuthor"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:id="@+id/newsLetter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newsDescription"
+                android:layout_marginTop="7dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
