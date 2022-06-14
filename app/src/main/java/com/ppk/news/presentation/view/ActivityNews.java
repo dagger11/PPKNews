@@ -117,6 +117,7 @@ public class ActivityNews extends AppCompatActivity implements NewsActivityContr
 
     private void loadNews(String category){
         dialog = new ProgressDialog(this);
+        dialog.setCancelable(false);
         dialog.setTitle(getString(R.string.loading));
         dialog.show();
         currentCategory = category;
