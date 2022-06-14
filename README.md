@@ -1,3 +1,3 @@
 # PPKNews
 
-A simple news app using newsapi.
+A simple news app using ```newsapi.org```.
